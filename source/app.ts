@@ -1,15 +1,20 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application, Request, Response, NextFunction } from 'express';
 import fs from 'fs';
 import { Md5 } from 'ts-md5/dist/md5';
 
 const app: Application = express();
 
-const port: string | number = process.env.PORT || 3000;
+const port: string | number = process.env.PORT || 5000;
 
 const path: string = './product.json';
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+app.use((req: Request, res: Response, next: NextFunction) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+  });
 
 app.get('/getProducts', (req: Request, res: Response) => {
     if (fs.existsSync(path)) {

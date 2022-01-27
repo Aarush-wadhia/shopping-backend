@@ -1,16 +1,1 @@
-[
-  {
-    "product_id": "97f3b005060cf8b5f395ff6630586d2f",
-    "product_name": "Table",
-    "product_price": 1000,
-    "product_desc": "This is the description for the table",
-    "product_image": "https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"
-  },
-  {
-    "product_id": "eab2caa50757fdafb94663fb2af796e5",
-    "product_name": "Lamp",
-    "product_price": 2000,
-    "product_desc": "This is the description for the table",
-    "product_image": "https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"
-  }
-]
+[{"product_id":"97f3b005060cf8b5f395ff6630586d2f","product_name":"Table","product_price":1000,"product_desc":"This is the description for the table","product_image":"https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"},{"product_id":"eab2caa50757fdafb94663fb2af796e5","product_name":"Lamp","product_price":2000,"product_desc":"This is the description for the table","product_image":"https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"},{"product_id":"a5ef8d695ac2b557c6afab104a7979bc","product_name":"Sofa","product_price":2000,"product_desc":"This is a sofa","product_image":"https://ii2.pepperfry.com/media/catalog/product/a/e/494x544/aelber-1-seater-sofa-in-navy-blue-colour---woodsworth-by-pepperfry-aelber-1-seater-sofa-in-navy-blue-bs1vge.jpg"},{"product_id":"f0ded4bf1753b5f2ba0aa00f60e10494","product_name":"Chimney","product_price":30000,"product_desc":"This is a Chimney","product_image":"https://ii3.pepperfry.com/media/catalog/product/g/l/494x544/glen-6052-ts-120cm-1250-m3-h-electric-island-chimney-with-touch-sensor-glen-6052-ts-120cm-1250-m3-h--bi52h9.jpg"},{"product_id":"94d5000c1e0d3418d8c009d20bcbc0dc","product_name":"Vaccum cleaner","product_price":20000,"product_desc":"This is a Vaccum cleaner","product_image":"https://ii3.pepperfry.com/media/catalog/product/a/m/494x544/amour-v7s-smart-robotic-vacuum-cleaner-with-alexa-and-google-home-compatibility-in-white-colour-amou-b15ldq.jpg"},{"product_id":"6aa5e94e08fbcb48a81030836a30f410","product_name":"Floor mat","product_price":20000,"product_desc":"This is a Floor mat","product_image":"https://ii1.pepperfry.com/media/catalog/product/y/e/494x544/yellow-and-blue-cotton-geometric-6x4-feet-hand-woven-dhurrie-by-orna-house-yellow-and-blue-cotton-ge-gqgjbn.jpg"},{"product_id":"3736abef70f3f949c9c5aae24b33a815","product_name":"Cabinetry","product_price":20000,"product_desc":"This is a Cabinetry","product_image":"https://ii3.pepperfry.com/media/catalog/product/s/t/494x544/stafford-solid-wood-2-door-wardrobe-in-honey-oak-finish---amberville-by-pepperfry-stafford-solid-woo-pmnwnm.jpg"},{"product_id":"b03f32f8c3d16545bfce4bd901c21ac9","product_name":"Recliner","product_price":20000,"product_desc":"This is a Recliner","product_image":"https://ii3.pepperfry.com/media/wysiwyg/banners/Sofas%20and%20Recliners-irb_web_20012021_1_2x.jpg"}]

@@ -7,10 +7,14 @@ const express_1 = __importDefault(require("express"));
 const fs_1 = __importDefault(require("fs"));
 const md5_1 = require("ts-md5/dist/md5");
 const app = (0, express_1.default)();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const path = './product.json';
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: false }));
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+});
 app.get('/getProducts', (req, res) => {
     if (fs_1.default.existsSync(path)) {
         fs_1.default.readFile('./product.json', 'utf-8', (err, jsonString) => {
