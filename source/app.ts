@@ -55,6 +55,10 @@ app.post('/addProduct', (req: Request, res: Response) => {
 
 });
 
+app.get('/', (req: Request, res: Response) => {
+    res.send('Welcome to our page, Happy shopping!')
+})
+
 app.listen(port, () => {
     console.log('server started');
 })
