@@ -4,7 +4,7 @@ import { Md5 } from 'ts-md5/dist/md5';
 
 const app: Application = express();
 
-const port: number = 3000;
+const port: string | number = process.env.PORT || 3000;
 
 const path: string = './product.json';
 
