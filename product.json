@@ -1,0 +1,16 @@
+[
+  {
+    "product_id": "97f3b005060cf8b5f395ff6630586d2f",
+    "product_name": "Table",
+    "product_price": 1000,
+    "product_desc": "This is the description for the table",
+    "product_image": "https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"
+  },
+  {
+    "product_id": "eab2caa50757fdafb94663fb2af796e5",
+    "product_name": "Lamp",
+    "product_price": 2000,
+    "product_desc": "This is the description for the table",
+    "product_image": "https://ii3.pepperfry.com/media/wysiwyg/banners/wfh_stylestatement_web_21012022_2.jpg"
+  }
+]
